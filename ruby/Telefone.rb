@@ -14,7 +14,11 @@ class Telefone
       @credito -= 5
     else
       puts "Não foi possível efetuar ligação, crédito insuficiente"
-      system("say -v Luciana 'Créditos insuficientes para realizar esta ligação!'")
+      
+      # Executa comando de sistema, chama say do Mac OS para falar
+      # Instalar interpretador de texto Linux para executar say corretamente
+      
+      # system("say -v Luciana 'Créditos insuficientes para realizar esta ligação!'")
     end
 
   end
